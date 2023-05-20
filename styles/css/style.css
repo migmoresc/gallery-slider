@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+.cerrar {
+    position: absolute;
+    width: 2%;
+    top: 2%;
+    right: 2%;
+}
+
+.fi,
+.fd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10%;
+    float: left;
+    height: 100%;
+    align-items: center;
+}
+
+.fic,
+.fdc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 2%;
+    float: left;
+    height: 100%;
+    align-items: center;
+}
+
+.fi img,
+.fd img {
+    width: 50px;
+}
+
+.fic img,
+.fdc img {
+    width: 24px;
+}
+
+.divimagen {
+    float: left;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    background: rgba(0, 0, 0, .85)
+}
+
+.divvisor {
+    position: relative;
+    height: 90%;
+}
+
+.div-carousel {
+    position: relative;
+    height: 10%;
+}
+
+.carousel {
+    position: relative;
+    height: 100%;
+    width: 96%;
+    float: left;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.cimagen {
+    height: 100%;
+    display: inline-flex;
+    flex-shrink: 0;
+}
+
+#imagen-principal {
+    max-width: 100%;
+    max-height: 100%;
+}
